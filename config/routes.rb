@@ -11,4 +11,22 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+ 
+ 
+  # CRUD operations - translates to 8 routes usually
+  # get "/products", to: "products#index"
+
+  # get "/products/new", to: "products#new"
+  # post "/products", to: "products#create"
+
+  # get "/products/:id", to: "products#show"
+
+  # get "/products/:id/edit", to: "products#edit"
+  # patch "/products/:id", to: "products#update"
+  # put "/products/:id", to: "products#update"
+
+  # delete "/products/:id", to: "products#destroy"
+
+  # Rails provides a shortcut for defining the above routes:
+  resources :products
 end
