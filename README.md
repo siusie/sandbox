@@ -4,12 +4,12 @@ This is a Ruby on Rails application. Follow the steps below to get the applicati
 
 ## Ruby Version
 
-This project uses Ruby 3.x (check your version with `ruby -v`).
+This project uses Ruby >3.x.
 
 ## System Dependencies
 
-- Ruby 3.x
-- Rails 7.x
+- Ruby >3.x
+- Rails >7.x
 - Node.js (for JavaScript assets)
 - Yarn (optional, for managing JS packages)
 - SQLite3 (default for development)
@@ -18,7 +18,7 @@ This project uses Ruby 3.x (check your version with `ruby -v`).
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/siusie/sandbox.git
    cd sandbox
    ```
 2. Install dependencies:
